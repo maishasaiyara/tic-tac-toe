@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vh;
+    height: 60vh;
+}
+
+.cell {
+    width: 30vh;
+    border: 2px solid black;
+    align-items: center;
+}
+/* ^^ Get rid of this!*/
+
+body {
+    color:aliceblue;
+    background-color: darkblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 150 px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: beige;
+    height: 100px; 
+    padding: 20px;
+}
+
+#overallBoard {
+    width: 100 px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border-color: white;
+    padding: 15px 30px;
+}
